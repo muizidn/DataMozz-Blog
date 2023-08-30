@@ -13,12 +13,6 @@ const contributors = [
     stack: ['iOS', 'Flutter', 'Next.js'],
     role: 'Team Lead',
   },
-  {
-    name: 'Syofyan Zuhad',
-    github: 'https://github.com/syofyanzuhad',
-    stack: ['Laravel', 'Next.js', 'TailwindCSS'],
-    role: 'Developer and Blogger',
-  },
 ];
 
 export default function ContactPage() {

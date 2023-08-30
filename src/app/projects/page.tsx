@@ -12,26 +12,8 @@ export default function ProjectsPage() {
         Side Project Helps Us Grow As A Software Engineer
       </h1>
       <h2 className="mt-12 text-center text-3xl">
-        You can also benefit from our side project. Join the waitlist for free
-        premium features*
+        We don't have projects yet. But we are working on that.
       </h2>
-      <h2 className="mt-12 text-center text-3xl">Take a look</h2>
-      <ProjectLink link="/projects/network-spy">
-        Network Spy (last commit 1 day ago)
-      </ProjectLink>
-      <ProjectLink link="/projects/wolf-util">
-        Wolf Util (last commit 1 day ago)
-      </ProjectLink>
-      <ProjectLink link="/projects/tomio-ai">
-        Tomio AI (last commit 1 day ago)
-      </ProjectLink>
-      <ProjectLink link="/projects/loop-quran">
-        Loop Quran (last commit 1 day ago)
-      </ProjectLink>
-      <ProjectLink link="/projects/seo-sails">
-        SEO Sails (last commit 1 day ago)
-      </ProjectLink>
-      <ProjectLink link="/projects/freebio">Free Bio (Released)</ProjectLink>
       <p className="text-3s mt-12 text-center">
         *Premium features depends on the project owner. Please contact the
         developer for more information.
