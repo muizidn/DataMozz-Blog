@@ -16,7 +16,7 @@ export async function GET(request: Request) {
       (
         <div
           style={{
-            backgroundColor: 'indigo',
+            backgroundColor: 'orange',
             height: '100%',
             width: '100%',
             display: 'flex',

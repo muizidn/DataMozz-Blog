@@ -38,7 +38,7 @@ const SocialButton: React.FC<SocialButtonProps> = ({ platform, encodedUrl, text 
 
   return (
     <a
-      className="ease mb-1 mr-1 inline-flex items-center rounded border-2 border-indigo-600 bg-indigo-600 px-2 py-1 text-sm text-white transition duration-200 hover:border-indigo-700 hover:bg-indigo-700"
+      className="ease mb-1 mr-1 inline-flex items-center rounded border-2 border-orange-400 bg-orange-600 px-2 py-1 text-sm text-white transition duration-200 hover:border-orange-700 hover:bg-orange-700"
       target="_blank"
       rel="noopener"
       href={platformInfo.href}
