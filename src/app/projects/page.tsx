@@ -12,7 +12,7 @@ export default function ProjectsPage() {
         Side Project Helps Us Grow As A Software Engineer
       </h1>
       <h2 className="mt-12 text-center text-3xl">
-        We don't have projects yet. But we are working on that.
+        {"We don't have projects yet. But we are working on that."}
       </h2>
       <p className="text-3s mt-12 text-center">
         *Premium features depends on the project owner. Please contact the
