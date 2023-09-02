@@ -12,13 +12,13 @@ export default async function HomePage() {
   return (
     <>
       <h1 className="mt-12 text-center text-3xl font-bold">
-        Hello, What Mozz 🤖 Can Help You Today?
+        Hello, Let's Learn, Enrich, Analyze Data with Mozz 🤖
       </h1>
       <h2 className="mt-12 text-center text-3xl">
-        We find problems. We get some help.
+        Bring Your Data to Live. Draw Insight and Make Profit.
       </h2>
       <h3 className="mt-12 text-center text-3xl">
-        We solve it. We share our learning.
+        You Can Start Your Journey with Mozz. Start Simple.
       </h3>
       <h3 className="mt-12 text-center text-3xl">OK?</h3>
       <div className="space-y-4">
