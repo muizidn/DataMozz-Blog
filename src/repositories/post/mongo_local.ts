@@ -103,13 +103,14 @@ export default class MongoLocalPostRepository {
             const collection = this.db.collection("posts");
             const pipeline = [
                 { $match: { published: true } },
+                { $project : { _id : 0, categories : 1 } },
                 { $unwind: "$categories" },
-                { $group: { id: "$categories" } },
-                { $sort: { id: 1 } },
+                { $group: { _id: "$categories" } },
+                { $sort: { _id: 1 } },
             ];
             const result = await collection.aggregate(pipeline).toArray();
 
-            return result.map((r) => r.id);
+            return result.map((r) => r._id);
         } catch (error) {
             console.error('Error fetching data:', error);
             throw new Error(`Error fetching post categories`);
@@ -120,7 +121,7 @@ export default class MongoLocalPostRepository {
         try {
             const collection = this.db.collection("posts");
             const filter = { published: true };
-            const result = await collection.find(filter, { projection: { slug: 1, id: 0 } }).toArray();
+            const result = await collection.find(filter).project({ slug: 1, _id: 0}).toArray();
 
             return result.map((r) => r.slug);
         } catch (error) {
