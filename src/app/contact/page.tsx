@@ -42,8 +42,7 @@ export default function ContactPage() {
         {"Hello there. You want to talk? Let's talk!"}
       </h2>
       <h2 className="mt-12 text-center text-3xl">
-        Mozz is built by team. You can reach these amazing talents who are contributing
-        continuously.
+        Well, currently DataMozz is run by single contributor. But you can join too.
       </h2>
       <div className="mt-12">
         <tbody>{contributorsEl}</tbody>
