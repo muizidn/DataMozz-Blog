@@ -14,7 +14,7 @@ export default function AboutPage() {
         I share everything. Please bear with my lack of knowledge, I will always update the post later.
       </h2>
       <h2 className="mt-12 text-center text-3xl">
-        Let's go to the moon!
+        {"Let's go to the moon!"}
       </h2>
     </>
   );

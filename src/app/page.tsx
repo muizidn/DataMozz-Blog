@@ -12,7 +12,7 @@ export default async function HomePage() {
   return (
     <>
       <h1 className="mt-12 text-center text-3xl font-bold">
-        Hello, Let's Learn, Enrich, Analyze Data with Mozz 🤖
+        {"Hello, Let's Learn, Enrich, Analyze Data with Mozz 🤖"}
       </h1>
       <h2 className="mt-12 text-center text-3xl">
         Bring Your Data to Live. Draw Insight and Make Profit.
