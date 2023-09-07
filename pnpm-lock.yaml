@@ -112,9 +112,6 @@ devDependencies:
   '@types/jsdom':
     specifier: ^21.1.1
     version: 21.1.2
-  '@types/mixpanel-browser':
-    specifier: ^2.47.1
-    version: 2.47.1
   '@types/prismjs':
     specifier: ^1.26.0
     version: 1.26.0
@@ -1260,10 +1257,6 @@ packages:
   /@types/mime@3.0.1:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
     dev: false
-
-  /@types/mixpanel-browser@2.47.1:
-    resolution: {integrity: sha512-4Oif1hbjmStA6KI1OLer19rbKjlPd67ujp5Wipfa7rIskA/lOFZbp6kYsPjXD0f5AiiCQTbf0R/SnnzgOaKrbA==}
-    dev: true
 
   /@types/node-fetch@2.6.4:
     resolution: {integrity: sha512-1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==}
